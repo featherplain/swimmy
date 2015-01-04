@@ -1,4 +1,6 @@
-# WordPress theme - 'swimmy'
+# WordPress theme - 'Swimmy'
+
+![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
 ## Requires for devlopment
 
@@ -45,4 +47,4 @@ Based on [myproject - Project starter kit using gulp](http://github.com/featherp
 
 ## Thanks
 
-'swimmy' is child theme of ['Minnow' by Automattic](https://wordpress.com/themes/minnow/).
+Swimmy is child theme of ['Minnow' by Automattic](https://wordpress.com/themes/minnow/).
