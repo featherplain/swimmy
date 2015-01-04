@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* ======================================= */
+/* header
+/* ======================================= */
+
+.site-header {
+	background-color: $colorBase;
+}
+
+/* site title */
+.site-branding {
+	.site-title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 2.2em;
+		font-weight: normal;
+		& > a {
+			color: #ffffff;
+		}
+	}
+}
+
+/* social link buttons */
+.social-links {}
+.menu { 
+	.menu-item {
+		a {
+			&:before {
+				background: $colorSub;
+			}
+			&:hover {
+				&:before {
+					background: $colorLinkHover;
+				}
+			}
+		}
+	}
+}
+
+/* menu button */
+.menu-toggle {
+	border-top: $menuToggle;
+	&:before,
+	&:after {
+		border-top: $menuToggle;
+	}
+	&:hover,
+	&:active,
+	&:focus, {
+		border-top: $menuToggleHover;
+		&:before,
+		&:after {
+			border-top: $menuToggleHover;
+		}
+	}
+}
+.sidebar-open {
+	.menu-toggle {
+		border-top: $menuToggleHover;
+		&:before,
+		&:after {
+			border-top: $menuToggleHover;
+		}
+	}
+}
+
+/* media
+/* --------------------------------------- */
+
+/* over 35em */
+@mixin layout-header-over35em {
+	.site-branding {
+		.site-title {
+			font-size: 3em;
+		}
+	}
+}
+/* over 68em */
+@mixin layout-header-over68em {
+	.site-branding {
+		.site-title {
+			font-size: 3em;
+		}
+	}
+}

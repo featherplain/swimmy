@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* ======================================= */
+/* default styles
+/* ======================================= */
+
+/* The root element */
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  color: $colorBase;
+  word-wrap: break-word;
+  font-family: $fontFamily;
+  font-weight: 300;
+  letter-spacing: $letterSpace;
+  line-height: $lineHeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Grouping content */
+iframe {
+  vertical-align: middle;
+}
+
+/* Text-level semantics */
+a {
+  color: $colorLink;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  &:focus {
+    outline: thin dotted;
+  }
+  &:link,
+  &:visited {
+    color: $colorLink;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+    color: $colorLinkHover;
+    text-decoration: none;
+  }
+}
+p {
+  margin-bottom: 1.6em;
+  color: $colorBase;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fontFamily;
+  font-weight: 700;
+  text-transform: none;
+  color: $colorTitle;
+  &,
+  & > a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+::selection {
+  background: transparent;
+  background-color: $colorSelection;
+  color: $colorLink;
+}
+.fa {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* List items */
+ul,ol {
+  padding: 0 0 0 30px;
+  & > li {
+    & > ul,
+    & > ol {
+      margin-left: 0.5em;
+    }
+  }
+}
+ul {
+  li {
+    list-style-type: square;
+  }
+}
+dl {
+  margin-bottom: 2em;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  dt {
+    margin-bottom: 0.5em;
+  }
+  dd {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Embedded content */
+figure {
+  margin-top: 1em;
+}
+img {
+  line-height: 1.0;
+  vertical-align: bottom;
+  border: 0;
+}
+svg:not(:root){
+  overflow: hidden;
+}
+
+/* table */
+table {
+  font: 100%;
+  font-size: inherit;
+  border-spacing: 0;
+  border-collapse: collapse;
+}

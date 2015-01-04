@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* ======================================= */
+/* footer
+/* ======================================= */
+
+.site-footer {
+	max-width: 100%;
+	margin: 0;
+	background: $colorBase;
+	font-family: $fontFamily;
+	color: #ffffff;
+	text-transform: none;
+	.site-info {
+		& > p {
+			color: #ffffff;
+		}
+		& > a {
+			color: $colorLink;
+		}
+	}
+	.copyright {
+		margin-top: 1.5em;
+		& > a {
+			color: #ffffff;
+		}
+	}
+}
+
+/* media
+/* --------------------------------------- */
+
+/* over 68em */
+// @mixin layout-footer-over68em {}

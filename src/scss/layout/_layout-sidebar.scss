@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* ======================================= */
+/* sidebar
+/* ======================================= */
+
+/* navigation */
+.main-navigation {
+	li {
+		@include hiddenIcon;
+		li {
+			@include hiddenIcon;
+		}
+	}
+	border-bottom: none;
+	.menu {
+		font-style: normal;
+		& > .menu-item {
+			@include list(first);
+		}
+	}
+	.sub-menu {
+		& > .menu-item {
+			@include list(last, dashed);
+		}
+	}
+}
+/* secondary */
+#secondary {
+	ul {
+		padding-left: 0px;
+	}
+	li {
+		@include list(first);
+		@include hiddenIcon;
+	}
+}
+/* post */
+.post-date {
+	font-size: .85em;
+}
+
+/* media
+/* --------------------------------------- */
+
+/* over 68em */
+@mixin layout-sidebar-over68em {}
