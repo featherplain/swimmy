@@ -17,7 +17,7 @@ Based on [myproject - Project starter kit using gulp](http://github.com/featherp
 
 1. 	On your WordPress `theme` directory,
 
-		$ git clone git@github.org:featherplain/swimmy.dev.git swimmy
+		$ git clone git@github.org:featherplain/swimmy.git swimmy
 
 2. 	Copy files to your WordPress plugin directory which is in `src/plugins` directory.
 
