@@ -9,7 +9,7 @@ $colorLink: $colorSub;
 $colorLinkHover: lighten($colorLink, 10%);
 $colorTitle: $colorBase;
 $colorTitleBkg: #f5f5f4;
-$colorSelection: $colorLink;
+$colorSelection: lighten($colorBase, 65%);
 // $colorBlue: #699ebf;
 
 //***********************
