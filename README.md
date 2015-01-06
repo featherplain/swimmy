@@ -1,6 +1,8 @@
-# WordPress theme - 'Swimmy'
+# Swimmy - WordPress Child Theme
 
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
+
+Based on [Minnow by Automattic](https://wordpress.org/themes/minnow).
 
 ## Requires for devlopment
 
@@ -11,15 +13,17 @@
 * Sass over3.1
 * sass-globbing
 
-Based on [myproject - Project starter kit using gulp](http://github.com/featherplain/myproject).
+If you need more information, check out [myproject - Project starter kit using gulp](http://github.com/featherplain/myproject) for details.
 
 ## Setup your local project
 
-1. 	On your WordPress `theme` directory,
+Before setup local project, install Minnow at your WordPress dashboard.
 
-		$ git clone git@github.org:featherplain/swimmy.dev.git swimmy
+1. On your WordPress `themes` directory,
 
-2. 	Copy files to your WordPress plugin directory which is in `src/plugins` directory.
+		$ git clone git@github.com:featherplain/swimmy.git
+
+2. Copy files to your WordPress plugin directory which is in `src/plugins` directory.
 
 3.  Install gulp.
 
@@ -47,4 +51,4 @@ Based on [myproject - Project starter kit using gulp](http://github.com/featherp
 
 ## Thanks
 
-Swimmy is child theme of ['Minnow' by Automattic](https://wordpress.com/themes/minnow/).
+Swimmy is child theme. Based on ['Minnow' by Automattic](https://wordpress.org/themes/minnow).
