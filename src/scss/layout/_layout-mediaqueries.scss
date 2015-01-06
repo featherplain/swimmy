@@ -10,6 +10,7 @@
 @media screen and (min-width: 35em) {
 	/* header */
 	@include layout-header-over35em;
+	@include layout-common-over35em;
 }
 @media screen and (min-width: 68em) {
 	/* common style */
