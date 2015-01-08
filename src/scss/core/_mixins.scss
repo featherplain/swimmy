@@ -55,6 +55,9 @@
     display: inline-block;
     vertical-align: top;
     color: $colorBase;
+    &:hover {
+      color: lighten($colorBase, 20%);
+    }
   }
 }
 // link

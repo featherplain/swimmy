@@ -104,7 +104,7 @@ gulp.task('sprite', function() {
     cssName: '_module-sprite.scss'
   }));
   spriteData.img.pipe(gulp.dest(paths.imgDest));
-  spriteData.css.pipe(gulp.dest(paths.scssDir + '/ module'));
+  spriteData.css.pipe(gulp.dest(paths.scssDir + '/module'));
 });
 
 /*******************************************************************************
