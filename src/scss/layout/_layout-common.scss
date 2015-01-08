@@ -11,6 +11,7 @@
 	/* entry-meta */
 	.entry-meta {
 		@extend %clearfix;
+		margin-bottom: 3em;
 		padding: 5px;
 		border-radius: 4px;  
 		line-height: 1.2;
@@ -157,13 +158,17 @@
 		float: none;
 		width: 100%;
 		min-height: 50px;
+		font-size: .8em;
+		font-weight: bold;
+		.meta-nav {
+			display: none;;	
+		}
 	}
 	.nav-previous {
 		position: relative;
 		padding-bottom: 20px;
 		padding-left: 50px;
 		border-bottom: 1px dashed lighten($colorBase, 55%);
-		font-weight: bold;
 		&:before {
 			@include genericon('\f430', $fontsize: 22px, $valaign: middle);
 			position: absolute;
@@ -174,15 +179,11 @@
 			color: #ffffff;
 			border-radius: 50%;
 		}
-		.meta-nav {
-			display: none;
-		}
 	}
 	.nav-next {
 		position: relative;
 		margin-top: 20px;
 		padding-right: 50px;
-		font-weight: bold;
 		&:after {
 			@include genericon('\f429', $fontsize: 22px, $valaign: middle);
 			position: absolute;
@@ -192,9 +193,6 @@
 			background-color: $colorSub;
 			color: #ffffff;
 			border-radius: 50%;
-		}
-		.meta-nav {
-			display: none;
 		}
 	}
 } 
@@ -250,6 +248,10 @@
 				padding: 0 0 0 1.5em;
 				font-size: 1em;
 			}
+		}
+		.nav-previous,
+		.nav-next {
+			font-size: 1em;
 		}
 	}
 }

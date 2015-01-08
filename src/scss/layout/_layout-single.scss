@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* ======================================= */
+/* layout single
+/* ======================================= */
+
+.more-link {
+	display: inline-block;
+	padding: 10px 20px; 
+	border: 1px solid $colorSub;
+	border-radius: 4px;
+	font-weight: 500;
+	line-height: 1;
+	&:hover {
+		background-color: $colorSub;
+		color: #ffffff; 
+	}
+}
+
+
+/* media
+/* --------------------------------------- */
+
+/* over 35em */
