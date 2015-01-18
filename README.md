@@ -1,5 +1,7 @@
 # Swimmy - WordPress Child Theme
 
+[![Deployment status from dploy.io](https://featherplain.dploy.io/badge/66802253908740/17648.svg)](http://dploy.io)
+
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
 Based on [Minnow by Automattic](https://wordpress.org/themes/minnow).
