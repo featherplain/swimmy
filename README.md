@@ -1,19 +1,13 @@
 # Swimmy - WordPress Child Theme
 
-[![Deployment status from dploy.io](https://featherplain.dploy.io/badge/66802253908740/17648.svg)](http://dploy.io)
-
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
 Based on [Minnow by Automattic](https://wordpress.org/themes/minnow).
 
 ## Requires for devlopment
 
-* Bower
 * Node.js
 * npm
-* Ruby
-* Sass over3.1
-* sass-globbing
 
 If you need more information, check out [myproject - Project starter kit using gulp](http://github.com/featherplain/myproject) for details.
 
