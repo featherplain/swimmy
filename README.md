@@ -1,4 +1,4 @@
-# Swimmy - WordPress Child Theme
+# Swimmy
 
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
