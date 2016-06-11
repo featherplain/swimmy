@@ -1,5 +1,7 @@
 # Swimmy
 
+Swimmy is child theme. Based on ['Minnow' by Automattic](https://wordpress.org/themes/minnow).
+
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
 Based on [Minnow by Automattic](https://wordpress.org/themes/minnow).
@@ -44,7 +46,3 @@ Before setup local project, install Minnow at your WordPress dashboard.
 ## License
 
 [GNU General Public License v2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
-## Thanks
-
-Swimmy is child theme. Based on ['Minnow' by Automattic](https://wordpress.org/themes/minnow).
