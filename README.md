@@ -1,5 +1,7 @@
 # Swimmy
 
+WordPress child theme
+
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
 ## Requires for devlopment
