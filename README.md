@@ -2,8 +2,6 @@
 
 ![swimmy](https://raw.githubusercontent.com/featherplain/swimmy/gh-pages/dist/img/readme/ssAll.png)
 
-Based on [Minnow by Automattic](https://wordpress.org/themes/minnow).
-
 ## Requires for devlopment
 
 * Node.js
